@@ -1,6 +1,7 @@
 # Team_Software_Engineer
 รหัสนักศึกษา   ชื่อจริง-นามสกุล            เซคชั่น         ยูสเซอร์เนม  
 643020610-1	นาย ธนพนธ์ รวิภาสกร          sec4        thanaphon  
+<img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/thanaphon.png" width="250" height="400">
 643020613-5	นาย ธนากร ผาเป้า             sec4        tnakon02  
 <picture>
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/thanakon.png" width="250" height="400">
@@ -13,9 +14,8 @@
 643021418-8	นาย ณัฐพงษ์ แก่นกระโทก     sec4    NattapongKKT  
 <picture>
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/Nattapong(Aomsin).jpg" width="250" height="400">
-</picture>
+</picture>  
 643021421-9	นาย ธนพงษ์ เจริญพันธ์  			sec4		Thanapong5260  
-
 <picture>
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/20231125_151024.jpg" width="250" height="400">
-</picture>
+</picture>  
