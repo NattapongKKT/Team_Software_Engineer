@@ -7,5 +7,5 @@
 643021418-8	นาย ณัฐพงษ์ แก่นกระโทก  
 643021421-9	นาย ธนพงษ์ เจริญพันธ์  			sec4		Thanapong5260
 <picture>
-  <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/20231125_151024.jpg">
+  <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/20231125_151024.jpg style="width:500px;height:600px;">
 </picture>
