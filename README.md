@@ -4,7 +4,7 @@
 643020613-5	นาย ธนากร ผาเป้า             sec4        tnakon02  
 <picture>
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/thanakon.png" width="250" height="400">
-</picture>
+</picture>  
 643020624-0	นางสาว ปิยาภัสร์ สติภา  
 643021319-0	นางสาว ทอเนีย ทะเฮรี  
 643021418-8	นาย ณัฐพงษ์ แก่นกระโทก  
