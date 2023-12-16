@@ -8,7 +8,7 @@
 </picture>  
 643020624-0	นางสาว ปิยาภัสร์ สติภา      sec4          piyaphat0607  
 <picture>
-  <img src=" " width="250" height="400">
+  <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/351321322_137171586032025_8825375693252121042_n%20(1).jpg" width="250" height="400">
 </picture>  
 643021319-0	นางสาว ทอเนีย ทะเฮรี  
 643021418-8	นาย ณัฐพงษ์ แก่นกระโทก     sec4    NattapongKKT  
