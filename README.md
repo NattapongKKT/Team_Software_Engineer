@@ -14,7 +14,10 @@
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/351321322_137171586032025_8825375693252121042_n%20(1).jpg" width="250" height="400">
 </picture>  
 
-643021319-0	นางสาว ทอเนีย ทะเฮรี  
+643021319-0	นางสาว ทอเนีย ทะเฮรี      sec4          taniyataheri
+<picture>
+  <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2.jpg" width="250" height="400">
+</picture>
 
 643021418-8	นาย ณัฐพงษ์ แก่นกระโทก     sec4    NattapongKKT  
 <picture>
