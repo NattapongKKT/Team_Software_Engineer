@@ -26,8 +26,8 @@
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2.jpg" width="250" height="400">
 </picture>
 <br>
-643021418-8	นาย ณัฐพงษ์ แก่นกระโทก sec4 NattapongKKT
 <br>
+643021418-8	นาย ณัฐพงษ์ แก่นกระโทก sec4 NattapongKKT
 <br>
 <picture>
   <img src="https://github.com/NattapongKKT/Team_Software_Engineer/blob/main/media/Nattapong(Aomsin).jpg" width="250" height="400">
