@@ -48,7 +48,6 @@ services:
       - ./modules/testModule:/var/www/html/modules/testModule
       - ./themes/myTheme:/var/www/html/themes/myTheme
       - psdata:/var/www/html
-      - dbdata:/var/www/html
 
 networks:
   prestashop_network:
