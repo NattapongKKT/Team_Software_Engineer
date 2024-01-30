@@ -47,7 +47,7 @@ services:
     volumes:
       - ./modules/testModule:/var/www/html/modules/testModule
       - ./themes/myTheme:/var/www/html/themes/myTheme
-      - psdata:/var/www/html
+      - ./psdata:/var/www/html
 
 networks:
   prestashop_network:
