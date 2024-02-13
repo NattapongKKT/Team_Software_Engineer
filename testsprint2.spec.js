@@ -15,14 +15,14 @@ test('TC02', async ({ page }) => {
 });
 //-------------------------------------------------------------//
 test('TC03', async ({ page }) => {
-    //test case 03 invaid test Click US but go to page ID
+    //test case 03 invalid test Click US but go to page ID
     await page.goto('http://localhost:8080/th/');
     await page.click('text=English');
     expect(page.url()).toBe('http://localhost:8080/id/');
 });
 
 test('TC04', async ({ page }) => {
-    //test case 03 invaid test Click ID but go to page US
+    //test case 03 invalid test Click ID but go to page US
     await page.goto('http://localhost:8080/th/');
     await page.click('text=Bahasa Indonesia');
     expect(page.url()).toBe('http://localhost:8080/us/');
@@ -45,14 +45,14 @@ test('TC06', async ({ page }) => {
 //-------------------------------------------------------------//
 
 test('TC07', async ({ page }) => {
-    //test case 07 invaid test Click TH but go to page ID
+    //test case 07 invalid test Click TH but go to page ID
     await page.goto('http://localhost:8080/us/');
     await page.click('text=ภาษาไทย');
     expect(page.url()).toBe('http://localhost:8080/id/');
 });
 
 test('TC08', async ({ page }) => {
-    //test case 08 invaid test Click ID but go to page TH  
+    //test case 08 invalid test Click ID but go to page TH  
     await page.goto('http://localhost:8080/us/');
     await page.click('text=Bahasa Indonesia');
     expect(page.url()).toBe('http://localhost:8080/th/');
@@ -75,14 +75,14 @@ test('TC10', async ({ page }) => {
 
 //-------------------------------------------------------------//
 test('TC11', async ({ page }) => {
-    //test case 11 invaid test Click ID but go to page TH  
+    //test case 11 invalid test Click ID but go to page TH  
     await page.goto('http://localhost:8080/id/');
     await page.click('text=English');
     expect(page.url()).toBe('http://localhost:8080/th/');
 });
 
 test('TC12', async ({ page }) => {
-    //test case 12 invaid test Click TH but go to page US
+    //test case 12 invalid test Click TH but go to page US
     await page.goto('http://localhost:8080/id/');
     await page.click('text=ภาษาไทย');
     expect(page.url()).toBe('http://localhost:8080/us/');
@@ -103,14 +103,14 @@ test('TC14', async ({ page }) => {
 });
 //-------------------------------------------------------------//
 test('TC15', async ({ page }) => {
-    //test case 15 invaid test Click US but go to page ID
+    //test case 15 invalid test Click US but go to page ID
     await page.goto('http://localhost:8080/th/hna-hlak/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=English');
     expect(page.url()).toBe('http://localhost:8080/id/beranda/22-limited-cs-pencil-collection-2024.html');
 });
 
 test('TC16', async ({ page }) => {
-    //test case 16 invaid test Click ID but go to page US
+    //test case 16 invalid test Click ID but go to page US
     await page.goto('http://localhost:8080/th/hna-hlak/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=Bahasa Indonesia');
     expect(page.url()).toBe('http://localhost:8080/us/home/22-limited-cs-pencil-collection-2024.html');
@@ -133,14 +133,14 @@ test('TC18', async ({ page }) => {
 //-------------------------------------------------------------//
 
 test('TC19', async ({ page }) => {
-    //test case 19 invaid test Click TH but go to page ID
+    //test case 19 invalid test Click TH but go to page ID
     await page.goto('http://localhost:8080/us/home/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=ภาษาไทย');
     expect(page.url()).toBe('http://localhost:8080/id/beranda/22-limited-cs-pencil-collection-2024.html');
 });
 
 test('TC20', async ({ page }) => {
-    //test case 20 invaid test Click ID but go to page TH  
+    //test case 20 invalid test Click ID but go to page TH  
     await page.goto('http://localhost:8080/us/home/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=Bahasa Indonesia');
     expect(page.url()).toBe('http://localhost:8080/th/hna-hlak/22-limited-cs-pencil-collection-2024.html');
@@ -163,14 +163,14 @@ test('TC22', async ({ page }) => {
 
 //-------------------------------------------------------------//
 test('TC23', async ({ page }) => {
-    //test case 23 invaid test Click ID but go to page TH  
+    //test case 23 invalid test Click ID but go to page TH  
     await page.goto('http://localhost:8080/id/beranda/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=English');
     expect(page.url()).toBe('http://localhost:8080/th/hna-hlak/22-limited-cs-pencil-collection-2024.html');
 });
 
 test('TC24', async ({ page }) => {
-    //test case 24 invaid test Click TH but go to page US
+    //test case 24 invalid test Click TH but go to page US
     await page.goto('http://localhost:8080/id/beranda/22-limited-cs-pencil-collection-2024.html');
     await page.click('text=ภาษาไทย');
     expect(page.url()).toBe('http://localhost:8080/us/home/22-limited-cs-pencil-collection-2024.html');
