@@ -1,0 +1,58 @@
+version: '3'
+services:
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    links:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    networks:
+      - prestashop_network
+
+  mysql:
+    container_name: some-mysql
+    image: mysql:5.7
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: prestashop
+    networks:
+      - prestashop_network
+    #volumes:
+    #  - ./ddata:/var/lib/mysql
+
+  prestashop:
+    container_name: prestashop
+    image: thanapong5260/prestashopdemo:sprint3v4
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    ports:
+      - "8080:80"
+    environment:
+      DB_SERVER: some-mysql
+      DB_NAME: prestashop
+      DB_USER: root
+      DB_PASSWD: admin
+      PS_FOLDER_ADMIN: admin_prestashop
+      PS_FOLDER_INSTALL: install_prestashop
+    networks:
+      - prestashop_network
+    
+    #volumes:
+      # - ./modules/testModule:/var/www/html/modules/testModule
+      # - ./themes/myTheme:/var/www/html/themes/myTheme
+      # - pdata:/var/www/html
+
+networks:
+  prestashop_network:
+
+#volumes:
+#  psdata:
+#  dbdata:
