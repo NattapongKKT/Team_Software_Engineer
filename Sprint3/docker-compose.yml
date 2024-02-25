@@ -29,7 +29,7 @@ services:
 
   prestashop:
     container_name: prestashop
-    image: thanapong5260/prestashopdemo:sprint3v4
+    image: thanapong5260/prestashopdemo:sprint3lastest
     restart: unless-stopped
     depends_on:
       - mysql
