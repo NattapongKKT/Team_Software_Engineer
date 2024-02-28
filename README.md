@@ -1,5 +1,4 @@
-[install product](https://drive.google.com/drive/folders/1vtsG3icvMHkq_rF12-KvtBIoz--PhXSk?usp=sharing)
-<br>
+
 [Docker repository](https://hub.docker.com/r/thanapong5260/prestashopdemo/tags)
 # Team_Software_Engineer
 รหัสนักศึกษา ชื่อจริง-นามสกุล เซคชั่น ยูสเซอร์เนม   
